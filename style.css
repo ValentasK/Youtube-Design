@@ -1,12 +1,17 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
+body{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
 
 .navBar {
   background-color: rgb(30, 30, 30);
-  height: 60px;
+  height: 55px;
   display: flex;
 }
 
@@ -22,7 +27,7 @@
 }
 
 
-img {
+.navBtnOpen img {
   margin: auto;
   width: 20px;
   height: 15px;
@@ -31,4 +36,83 @@ img {
 
 .navBtnOpen:hover {
   cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  margin-left: 15px;
+
+}
+
+.logo img {
+  margin: auto;
+  height: 25px;
+
+}
+
+.search {
+  display: flex;
+  background-color: tr;
+  margin-left: auto;
+}
+
+.search img {
+  margin: auto;
+  height: 20px;
+}
+
+.camera{
+  display: flex;
+}
+
+.camera img{
+  margin: auto;
+  height: 30px;
+}
+
+.apps{
+  display: flex;
+}
+
+.apps img{
+  margin: auto;
+  height: 25px;
+}
+
+.bell{
+  display: flex;
+}
+
+.bell img{
+  margin: auto;
+  height: 30px;
+}
+
+.account{
+  display: flex;
+}
+
+.account img{
+  margin: auto;
+  height: 35px;
+}
+
+.video{
+  margin: auto;
+  margin-top: 100px;
+  width: 92vw;
+  height: 50vw;
+}
+
+.chat{
+
+  margin: auto;
+  margin-top: 40px;
+  width: 85vw;
+  height: 500px;
+  display: flex;
+}
+
+.chat img{
+  width: 100%;
 }
