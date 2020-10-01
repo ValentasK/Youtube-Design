@@ -5,7 +5,7 @@
 
 
 .navBar {
-  background-color: rgb(30, 30, 30);
+  background-color: red;
   height: 60px;
   display: flex;
 }
