@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+.navBar {
+  background-color: blue;
+}
+
+.navBtnOpen {
+
+  background-color: rgb(59, 59, 180);
+
+
+  margin-left: 30px;
+  height: 110px;
+  width: 110px;
+  display: flex;
+}
+
+
+
+
+img {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+
+}
+
+.navBtnOpen:hover {
+  cursor: pointer;
+}
