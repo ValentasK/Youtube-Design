@@ -3,6 +3,16 @@
   padding: 0px;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.margin-left{
+  margin-left: auto;
+}
+
 body {
   background-color: rgb(20, 20, 20);
   display: flex;
@@ -14,107 +24,78 @@ body {
   position: fixed;
   background-color: rgb(30, 30, 30);
   width: 100%;
-  height: 55px;
+  height: 20px;
   display: flex;
 }
 
+.navBarImg{
+  margin: auto;
+  height: 10px;
+}
+
+
 .navBtnOpen {
-  background-color: transparent;
-  margin-left: 30px;
-  height: 40px;
-  width: 40px;
+  background-color:transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 15px;
+  width: 15px;
   margin-top: auto;
   margin-bottom: auto;
   display: flex;
   border-radius: 50%;
 }
 
-
-.navBtnOpen img {
-  margin: auto;
-  width: 20px;
-  height: 15px;
-
-}
-
 .navBtnOpen:hover {
   cursor: pointer;
 }
 
-.logo {
-  display: flex;
-  margin-left: 15px;
-
-}
-
-.logo img {
-  margin: auto;
-  height: 25px;
-
-}
 
 .search {
   display: flex;
-  background-color: tr;
-  margin-left: auto;
-}
-
-.search img {
+  background-color: transparent;
   margin: auto;
-  height: 20px;
 }
 
-.camera {
+.searchWindow{
+  font-size: 8px;
+  color: gray;
+  background-color: black;
+  width: 140px;
+  padding-left: 5px;
+}
+
+.searchIcon{
+  background-color: rgb(50, 50, 50);
+  width: 20px;
+  height: 10px;
   display: flex;
 }
 
-.camera img {
+.searchImg{
+  height: 6px;
   margin: auto;
-  height: 30px;
 }
 
-.apps {
-  display: flex;
-}
-
-.apps img {
-  margin: auto;
-  height: 25px;
-}
-
-.bell {
-  display: flex;
-}
-
-.bell img {
-  margin: auto;
-  height: 30px;
-}
-
-.account {
-  display: flex;
-}
-
-.account img {
-  margin: auto;
-  height: 35px;
+.accountLogo{
+  margin-right: 10px;
 }
 
 /* //////////////// video ///////////////// */
 
 .video {
   margin: auto;
-  margin-top: 80px;
-  width: 90vw;
-  height: 50vw;
+  margin-top: 30px;
+  width: 95vw;
+  height: 53vw;
 }
 
 /* ///////////// video details //////////// */
 
 .videoDetails {
   margin: auto;
-  margin-top: 25px;
-  width: 90vw;
+  margin-top: 10px;
+  width: 95vw;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -123,14 +104,13 @@ body {
 
 .location {
   width: 100%;
-  height: 16px;
+  height: 5px;
   display: flex;
-  
 }
 
 .location img{
-  width: 70px;
-  height: 15px;
+  width: 30px;
+  height: 5px;
 }
 
 .location img:hover{
@@ -139,60 +119,31 @@ body {
 
 .videoName{
   color: rgb(220, 220, 220);
+  font-size: 8px;
 }
 
 .videoDetailsBottom{
-  margin-top: 10px;
+  margin-top: 3px;
+  padding-right: 5px;
   display: flex;
   color: rgb(150, 150, 150);
+  font-size: 7px;
+ 
 }
 
-.views{
-
-}
-
-.likeVideo{
-  display: flex;
-  margin-left: auto;
-}
-
-.likeVideo img{
-  height: 25px;
-}
-
-.dislikeVideo{
-  display: flex;
-}
-
-.dislikeVideo img{
-  height: 25px;
-}
-
-.shareVideo{
-display: flex;
-}
-
-.shareVideo img{
-  height: 25px;
-}
-
-.saveVideo{
-display: flex;
-}
-
-.saveVideo img{
-  height: 25px;
+.videoDetailsImg{
+height: 15px;
+margin: auto;
 }
 
 .threeDots{
-display: flex;
-margin-left: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .videoDescription{
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
   border-top: solid 1px rgb(50, 50, 50);
 }
 
@@ -206,7 +157,8 @@ margin-left: 20px;
 }
 
 .videoDescriptionImage img{
-  height: 55px;
+  height: 25px;
+  margin-top: 5px;
 }
 
 .accountDetails{
@@ -214,12 +166,36 @@ margin-left: 20px;
   flex-direction: column;
   margin-top: 10px;
   margin-left: 10px;
+  font-size: 7px;
 }
 
+.subscribed{
+  margin-top: 10px;
+  height: 15px;
+  width: 50px;
+  background-color: rgb(50, 50, 50);
+  font-size: 7px;
+}
 
+.subscribedImg{
+  margin-top: 10px;
+display: flex;
+}
+
+.subscribedImg img{
+  height: 15px;
+  }
 
 .videoDescription .bottom{
-  margin-top: 20px;
-  padding-left: 60px;
+  margin-top: 5px;
+  padding-left: 35px;
   color: rgb(220, 220, 220);
+  font-size: 7px;
+  width: 220px;
+}
+
+.showMore{
+  margin-top: 5px;
+  font-size: 5px;
+  color: rgb(150, 150, 150);
 }
